@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>listUser</title>
+</head>
+<body>
+<div align="center">
+    <ul th:each="u:${userList}">
+        <div>
+            <li th:text="${u.getUsername()}">
+            <li th:text="${u.getEmail()}">
+            <li th:text="${u.getPerm()}">
+
+        </div>
+    </ul>
+</div>
+</body>
+</html>
