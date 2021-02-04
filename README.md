@@ -8,4 +8,6 @@ SpringBootDemo
       
       4.shiro 整合了mybatis druid  
       
-      5.异步任务 邮件发送 
+      5.异步任务 邮件发送   
+
+      6.mybatis-plus
